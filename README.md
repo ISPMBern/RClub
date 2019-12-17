@@ -1,2 +1,2 @@
 # RClub
-R Club content
+This repository contains the content of the regular R Clubs at ISPM.
