@@ -37,6 +37,8 @@ Really good for developing R packages
   
 Could also use it as a repository for the code behind a paper or a project (e.g. an [RCT analysis MINDUSA RCT](https://github.com/jenniferthompson/MINDUSARCT) and [data management/cleaning](https://github.com/jenniferthompson/MINDUSADataMgmt)), although something more static more be more suitable (e.g. [zenodo](https://zenodo.org/)), as you can change things on github.
 
+UPDATE: Apparently you can reference a github repo from Zenodo and it will clone the repo to Zenodo, essentially making it read only. See [here for details](https://help.zenodo.org#github).
+
 Also useful for saving chunks of code that might be useful again (like a dropbox). 
 
 Doesnt have to be R code, could be anything (other languages, data, even binaries).
@@ -46,6 +48,9 @@ Doesnt have to be R code, could be anything (other languages, data, even binarie
 You might need to set up some credentials... See [Happy git with R](https://happygitwithr.com/credential-caching.html) for lots of details. This is a one time step... well, once per computer...
   
 ### What I do
+
+UPDATE: This is how I work. There is also a github app which is apparently easy to work with. See [here for details](https://desktop.github.com/).
+
 1. fork/create a repo online
 2. use cmd to clone it to my local machine using cmd
   * ![](figs/gitclone_url.png)
