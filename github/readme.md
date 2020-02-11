@@ -20,6 +20,8 @@ Really good for developing R packages
     * runs all of your tests
     * not exactly the same as the tests CRAN run, but better than nothing
     * [secuTrialR uses this](https://github.com/SwissClinicalTrialOrganisation/secuTrialR/pull/153)
+    * you have to give permission to each that you want to use (easily done via their websites)
+    * there is typically a configuration script in your repo which tells the CI what to do (one per CI-app)
 * can install packages directly from github via `remotes::install_github` (also from bitbucket and others)
 * really good for collaborating
   * each user/developer
@@ -42,6 +44,15 @@ UPDATE: Apparently you can reference a github repo from Zenodo and it will clone
 Also useful for saving chunks of code that might be useful again (like a dropbox). 
 
 Doesnt have to be R code, could be anything (other languages, data, even binaries).
+
+### General workflow
+
+![](figs/git_scheme.png)
+
+A few notes...
+* with a 'pull request', you're requesting the repo owner to pull your changes into their repo (makes sense huh?)
+* you 'push' the changes you've made locally up to github
+* branches are intended for different (self-contained?) features/modules
 
 ### Credentials?
 
